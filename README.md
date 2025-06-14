@@ -1,3 +1,48 @@
-# คำเตือน
+<h1> การใช้ LaTeX เบื้องต้น (สุด ๆ) </h1>
+<hr>
 
-<b>ห้าม copy ไปส่ง มันยังไม่ถูก แก้ยังไม่เสร็จ
+<h3><b>คำสั่งใช้สร้างหน้ากระดาษ </b></h3>
+<ul>
+    <li><strong>\documentclass[papersize, fontsize]{article}</strong></li>
+    --> papersize สามารถพิมพ์ว่า "a4paper" เพื่อกำหนดว่าเป็น A4 <br>
+    --> fontsize คือ ขนาดตัวอักษรที่ใช้ทั้งเอกสาร
+</ul>
+
+<h3><b>ตั้งค่าหน้ากระดาษ </b></h3>
+<ul>
+    <li><strong> \usepackage[margin = X in]</strong></li>
+    --> ตั้งค่าหน้ากระดาษให้ทุกด้านเว้นขอบ X นิ้ว <br><br>
+    <li><strong> \usepackage[top=Ain,bottom=Bin,left=Cin,right=Din]</strong></li>
+    --> ตั้งค่าหน้ากระดาษให้ "ด้านบน" เว้นขอบ A นิ้ว <br>
+    --> ตั้งค่าหน้ากระดาษให้ "ด้านล่าง" เว้นขอบ B นิ้ว <br>
+    --> ตั้งค่าหน้ากระดาษให้ "ด้านซ้าย" เว้นขอบ C นิ้ว <br>
+    --> ตั้งค่าหน้ากระดาษให้ "ด้านขวา" เว้นขอบ D นิ้ว <br>
+</ul>
+
+<h3><b>คำสั่งเปิดปิดเอกสาร </b></h3>
+<ul>
+    <li><strong>\begin{document}</strong> <br>
+    <p> ... </p>
+    <li><strong>\end{document}</strong></li>
+</ul>
+
+<h3><b> ขึ้นบรรทัดใหม่ </b></h3>
+<ul>
+    <li> "\\" <br> </li>
+    <li> Enter 2 ที </li>
+</ul>
+
+<h3><b> สมการคณิตศาสตร์ </b></h3>
+<ul>
+    <li><strong>$______$</strong></li>
+    --> พิมพ์สมการตรง ______ <br>
+    <p></p>
+    <li><strong>$$______$$</strong></li>
+    --> พิมพ์สมการตรง ______ จะทำให้สมการที่พิมพ์ "อยู่กลางหน้ากระดาษ"
+    <li><strong> ใช้ { __ } </strong></li>
+    --> เพื่อจัดกลุ่มสมการ เช่น x^{2a+b} ไม่ใช่ x^2a+b
+</ul>
+
+
+<hr>
+<h3><b> Common Mathematical Notation </b></h3>
