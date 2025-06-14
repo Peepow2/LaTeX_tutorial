@@ -1,8 +1,6 @@
-\documentclass{article}
-\usepackage{listings}
-\usepackage{amsmath}  % สำหรับสมการ
-\usepackage{amsfonts} % สำหรับตัวอักษรพิเศษ
-\usepackage{amssymb}  % สำหรับสัญลักษณ์ทางคณิตศาสตร์
+\documentclass[a4paper]{article}
+\usepackage[margin=1in]{geometry}
+% \usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
 
 \begin{document}
 	
@@ -12,23 +10,10 @@
 		#include <stdio.h>
 		int main() 
 		{
-			printf("Hello, world!\n"); // Show "Hello, world"
-			return 0;
+		    printf("Hello, world!\n"); // Show "Hello, world"
+		    return 0;
 		}
 	\end{verbatim}
-	
-	
-	\begin{lstlisting}[language=C, caption=My C Code, basicstyle=\ttfamily\footnotesize,
-		breaklines=true,
-		breakautoindent=true]
-		#include <stdio.h>
-		
-		int main() 
-		{
-			printf("Hello, world!\n");
-			return 0;
-		}
-	\end{lstlisting}
 	
 	\begin{equation}
 		E = mc^2
